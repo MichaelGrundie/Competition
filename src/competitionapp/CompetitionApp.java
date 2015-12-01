@@ -2,7 +2,7 @@ package competitionapp;
 import java.util.Scanner;
 
 
-public class CompetitionApp {
+public class CompetitionApp {//This is the main class
 
     static Scanner input = new Scanner(System.in).useDelimiter("\n");
     static boolean runTime = true;//A reference to repeat the program. (main method)
