@@ -158,9 +158,12 @@ public class CompetitionApp {//This is the main class
             
             if (returnInt < 1 || returnInt > maxScore)
             {
+                System.out.println("******************** INPUT ERROR ********************");
                 System.out.println("You can only enter an intiger value. \nIt must be"
                         + " more than zero. \nIt can not be more than the max score."
-                        + " (" + maxScore + ")\nPlease try again:");
+                        + " (" + maxScore + ")");
+                System.out.println("******************** INPUT ERROR ********************"
+                        + "\nPlease try again:");
             }else
             {
                 intConfirmed = true;
