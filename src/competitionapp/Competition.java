@@ -137,9 +137,12 @@ public class Competition {
             
             if (returnInt < 0 || returnInt > maxScore)
             {
+                System.out.println("******************** INPUT ERROR ********************");
                 System.out.println("You can only enter an intiger value. \nIt must be"
                         + " zero or more. \nIt can not be more than the max score."
-                        + " (" + maxScore + ")\nPlease try again:");
+                        + " (" + maxScore + ")");
+                System.out.println("******************** INPUT ERROR ********************"
+                        + "\nPlease try again:");
             }else
             {
                 intConfirmed = true;
